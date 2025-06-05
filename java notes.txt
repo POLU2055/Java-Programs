@@ -1,0 +1,122 @@
+LOOPS 
+
+int[] nums={1,2,3,4,5};
+
+  for(int n : nums){
+     System.out.println(n);
+  }
+
+break
+continue
+no pass in java
+
+?? numbers
+
+
+
+1.)  prime
+
+2.)  Armstrong
+
+3.)  strong number /  Krishnamurthy number / gravity number(sum of each digits factorial is equal to number)
+
+4.)  Niven number/ Harshad number (sum of the digits should divide the given number)
+
+5.)  Automorphic number (square of a number and last digit must be equal to the given number)
+
+6.)  Happy number (Recursion given number is squared - and each digits square sum is again and again each digits squared sum process repeats till the sum is 1 )
+
+		7^2=49 = 4^2+9^2 = 97 = 9^2+7^2 = 130 = 1^2 +3^2 + 0^2 = 10 = 1^2 +0^2 = 1
+
+7.)  Adam Number
+
+8.)  Magic number
+
+9.) Super Factorial (factorial within factorial)
+
+Patterns
+Diamond 
+Butterfly
+Rhombus
+
+
+
+STRINGS 
+
+palindrome
+
+anagrams
+
+tom riddles anagram
+
+
+SORTS
+
+bubble sort 
+insertion sort
+selection sort
+quick sort
+radix sort
+count sort
+inverse sort
+comb sort
+cocktail sort
+pancake sort
+
+
+
+					OOPS
+				       =======
+
+
+instance 
+class - object
+	variable or args  
+
+Java class  :
+=======================
+
+1) modifiers : it can modify super class variables in sub classes.
+
+2) class name : first letter capital (Animal)
+
+3) body : {}
+
+Direct oops
+===========
+
+** from main fun a, b are sent to a class and in that class add , sum of a+b is performed (obj.Add())
+main()
+a=1,b=2
+	obj.a;
+	obj.b;
+	obj.a+obj.b
+without accessing the class directly we use obj as mediator. obj has the entire class now after obj.Add();
+
+Java Object :
+=============
+
+1) state : attribute state(int, float, String), Object nature
+
+2) behaviour
+
+3) identity : unique names 
+
+Java Methods :
+==============
+
+1) caller and called methods should have same name and same number of attributes.
+
+
+
+
+
+
+
+Abstraction
+
+Inheritance
+
+Encapsulation : D Mart
+				pow - (2,3) = 2**3
+				exp - (3,3) = ((3)^3)^3
