@@ -6,7 +6,7 @@ interface BasicOperations{  //parent interface i.e base interface
 interface AdvanceOperations extends BasicOperations{    //child interface i.e derived interface from parent
     void product(int a,int b);
 }
-class Calculator{
+class Calculator extends AdavanceOperations{
     int a,b;
     public void add(int a,int b){
         System.out.println("Addition : "+(a+b));
