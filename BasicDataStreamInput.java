@@ -7,7 +7,7 @@ public class BasicDataStreamInput{
             dos.writeInt(44);
             dos.writeDouble(4.4);
             dos.writeUTF("Hello");
-
+             //int the bin file only string is stored as it is because string cannot be manipulated
         }catch(IOException e){
             e.getStackTrace();
         }
