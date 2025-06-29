@@ -26,3 +26,15 @@ public class AnagramSentences {
         sc.close();
     }
 }
+
+//PYTHON ANAGRAM CODE
+def is_anagram(s,d):
+    s=s.lower()
+    d=d.lower()
+    if sorted(s)==sorted(d):
+        print("The two strings are anagrams")
+    else:
+        print("The two strings are not anagrams")
+s=input()
+d=input()
+is_anagram(s,d)
